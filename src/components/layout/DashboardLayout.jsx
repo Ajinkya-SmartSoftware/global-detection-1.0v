@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Box, CssBaseline } from '@mui/material';
 import DashboardNavbar from '../public/DashboardNavbar';
-import DashboardSidebar from '../public/DashboardSidebar';
+import DashboardSidebar from '../public/DashboardSidbar';
 import useResponsive from '../../hooks/useResponsive';
 
 const drawerWidth = 240;

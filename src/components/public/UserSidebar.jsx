@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DashboardSidebar = () => {
+const UserSidebar = () => {
   return (
     <div>DashboardSidebar</div>
   )
 }
 
-export default DashboardSidebar
+export default UserSidebar

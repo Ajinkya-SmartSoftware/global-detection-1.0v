@@ -1,10 +1,14 @@
 import React from 'react';
 import DashboardLayout from './DashboardLayout';
+import Footer from '../public/Footer';
 
-const TravelerLayout = () => {
+const DetectiveLayout = () => {
   return (
-    <DashboardLayout role="DETECTIVE" />
+    <>
+      <DashboardLayout role="DETECTIVE" />
+      <Footer />
+    </>
   );
 };
 
-export default TravelerLayout;
+export default DetectiveLayout;
